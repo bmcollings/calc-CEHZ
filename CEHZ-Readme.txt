@@ -1,5 +1,5 @@
 Ben Jones + Ben Collings
-# Transect Analysis Pipeline
+# CEHZs Pipeline
 
 ## Overview
 This repository contains a Python script for automatically calculating CEHZS analyzing transect data in the context of wave points, bathymetry, and elevation. The script utilizes various geospatial libraries such as pandas, geopandas, rasterstats, rasterio, and shapely.
@@ -14,8 +14,7 @@ To run the script, make sure you have the required dependencies installed. You c
 Libraries:
 pip install pandas geopandas rasterstats rasterio tqdm
 
-
-## Usage
+Method see generate_CEHZ_variables.ipynb for specific code
 
 ### Step 1 - Find Nearest Wave Point for Each Transect
 1. Import required modules.
